@@ -2,7 +2,7 @@ from enum import Enum
 PROXYEN = None
 EXTENDLEN = 100
 DownloadDefualtCfg = {
-    "PROXYEN": 'http://127.0.0.1:7890',
+    "PROXYEN": 'socks5://127.0.0.1:10808',
     'Intervial_1Day_x':True,
     'Intervial_1h_x':True,
     'Intervial_30min_x':True,
@@ -318,7 +318,6 @@ BackTestPara = {
                         "Save": False,
                         "AutoOpen": True
                     }
-
 
 
 
